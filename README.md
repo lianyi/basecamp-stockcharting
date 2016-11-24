@@ -41,3 +41,9 @@ Running `npm test` will run the unit tests with karma.
 Don't forget to set the ENV for 
 
   QUANDL_API_KEY and MONGODB_URI
+
+
+##deploy 
+
+    git subtree split --prefix dist master
+    git push heroku 14f74ccb037126f49f97497e844b9b243a10f7a9:master  --force
