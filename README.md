@@ -34,3 +34,10 @@ Run `gulp build` for building and `gulp serve` for preview.
 ## Testing
 
 Running `npm test` will run the unit tests with karma.
+
+
+## important
+
+Don't forget to set the ENV for 
+
+  QUANDL_API_KEY and MONGODB_URI
